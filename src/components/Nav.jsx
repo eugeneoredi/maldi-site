@@ -8,6 +8,7 @@ const LINKS = [
   { href: "#partners", label: "Partners" },
   { href: "#plan", label: "Plan your trip" },
   { href: "#faq", label: "FAQ" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export default function Nav() {
@@ -56,7 +57,7 @@ export default function Nav() {
                 <a
                   key={l.href}
                   href={l.href}
-                  className={`font-mono text-[12px] tracking-wide uppercase transition-colors ${
+                  className={`text-[12.5px] font-medium tracking-[0.08em] uppercase transition-colors ${
                     scrolled ? "text-ink/70 hover:text-rust" : "text-sand-3/85 hover:text-sand-3"
                   }`}
                 >
@@ -65,7 +66,7 @@ export default function Nav() {
               ))}
               <a
                 href="#plan"
-                className={`font-mono text-[12px] tracking-wide uppercase px-4 py-2.5 rounded-full transition-colors ${
+                className={`text-[12.5px] font-medium tracking-[0.08em] uppercase px-4 py-2.5 rounded-full transition-colors ${
                   scrolled
                     ? "bg-ink text-sand-3 hover:bg-rust"
                     : "bg-sand-3 text-ink hover:bg-rust hover:text-sand-3"
@@ -123,7 +124,7 @@ export default function Nav() {
               <a
                 href="#plan"
                 onClick={() => setOpen(false)}
-                className="mt-4 font-mono text-[12px] tracking-wide uppercase bg-rust text-sand-3 px-5 py-3.5 rounded-full text-center"
+                className="mt-4 text-[12.5px] font-medium tracking-[0.08em] uppercase bg-rust text-sand-3 px-5 py-3.5 rounded-full text-center"
               >
                 Book now
               </a>

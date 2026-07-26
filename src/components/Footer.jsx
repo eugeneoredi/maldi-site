@@ -22,6 +22,7 @@ export default function Footer() {
               <li><a href="#packages" className="hover:text-rust transition-colors">Packages</a></li>
               <li><a href="#partners" className="hover:text-rust transition-colors">Partners</a></li>
               <li><a href="#faq" className="hover:text-rust transition-colors">FAQ</a></li>
+              <li><a href="#contact" className="hover:text-rust transition-colors">Contact</a></li>
             </ul>
           </div>
           <div>

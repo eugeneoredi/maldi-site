@@ -13,6 +13,7 @@ import Practical from "./components/Practical";
 import Corporate from "./components/Corporate";
 import FAQ from "./components/FAQ";
 import PlanCTA from "./components/PlanCTA";
+import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
         <Corporate />
         <FAQ />
         <PlanCTA />
+        <ContactUs />
       </main>
       <Footer />
     </div>
