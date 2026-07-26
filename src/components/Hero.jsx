@@ -18,7 +18,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
-          <Coords className="text-sand-2">03°13'S 40°07'E — Malindi, Kenya</Coords>
+          <Coords className="text-sand-2">Malindi, Kenya</Coords>
         </motion.div>
 
         <motion.h1
@@ -39,7 +39,7 @@ export default function Hero() {
           <p className="font-display italic text-2xl md:text-3xl text-sand-2 max-w-md">
             Beyond the beach.
           </p>
-          <p className="text-sand-2/80 max-w-sm text-[15px] leading-relaxed">
+          <p className="text-sand-2/92 max-w-sm text-[15px] leading-relaxed">
             Curated dunes, mangroves, reef and ruins \u2014 booked through verified
             local partners, priced with no surprises. Malindi Curated is your
             single point of contact for the coast.
@@ -54,13 +54,13 @@ export default function Hero() {
         >
           <a
             href="#plan"
-            className="font-mono text-[12px] tracking-wide uppercase bg-rust text-sand-3 px-6 py-3.5 rounded-full hover:bg-coral transition-colors"
+            className="text-[12.5px] font-semibold tracking-[0.06em] uppercase bg-rust text-sand-3 px-6 py-3.5 rounded-full hover:bg-coral transition-colors"
           >
             Book your adventure
           </a>
           <a
             href="#experiences"
-            className="font-mono text-[12px] tracking-wide uppercase border border-sand-2/40 text-sand-3 px-6 py-3.5 rounded-full hover:border-sand-2 transition-colors"
+            className="text-[12.5px] font-semibold tracking-[0.06em] uppercase border border-sand-2/40 text-sand-3 px-6 py-3.5 rounded-full hover:border-sand-2 transition-colors"
           >
             See experiences
           </a>
@@ -73,7 +73,7 @@ export default function Hero() {
         transition={{ delay: 1.2 }}
         className="absolute bottom-6 right-6 md:right-10 hidden sm:flex flex-col items-center gap-2"
       >
-        <span className="font-mono text-[10px] tracking-widest text-sand-2/70 uppercase [writing-mode:vertical-rl]">
+        <span className="font-mono text-[10px] tracking-widest text-sand-2/90 uppercase [writing-mode:vertical-rl]">
           Scroll
         </span>
         <motion.span

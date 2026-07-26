@@ -19,7 +19,7 @@ export default function Seasons() {
                   {s.range}
                 </p>
                 <h3 className="font-display text-2xl md:text-3xl mb-4">{s.name}</h3>
-                <p className="text-sand-2/70 text-sm leading-relaxed">{s.text}</p>
+                <p className="text-sand-2/90 text-sm leading-relaxed">{s.text}</p>
               </div>
             </Reveal>
           ))}

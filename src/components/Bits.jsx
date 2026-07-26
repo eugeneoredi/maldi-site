@@ -1,8 +1,8 @@
 export function Eyebrow({ children, dark = false }) {
   return (
     <div
-      className={`font-mono text-[11px] tracking-[0.18em] uppercase flex items-center gap-2 ${
-        dark ? "text-sand-2/80" : "text-lagoon-deep"
+      className={`text-[11px] font-medium tracking-[0.22em] uppercase flex items-center gap-2 ${
+        dark ? "text-sand-2/92" : "text-lagoon-deep"
       }`}
     >
       <span className={`inline-block w-4 h-px ${dark ? "bg-sand-2/60" : "bg-rust"}`} />

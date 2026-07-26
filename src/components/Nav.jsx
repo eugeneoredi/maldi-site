@@ -58,7 +58,7 @@ export default function Nav() {
                   key={l.href}
                   href={l.href}
                   className={`text-[12.5px] font-medium tracking-[0.08em] uppercase transition-colors ${
-                    scrolled ? "text-ink/70 hover:text-rust" : "text-sand-3/85 hover:text-sand-3"
+                    scrolled ? "text-ink/85 hover:text-rust" : "text-sand-3/85 hover:text-sand-3"
                   }`}
                 >
                   {l.label}

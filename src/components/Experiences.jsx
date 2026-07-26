@@ -13,7 +13,7 @@ export default function Experiences() {
         <Reveal>
           <Eyebrow>Day tours</Eyebrow>
           <Heading>Four ways into Malindi</Heading>
-          <p className="text-ink/70 max-w-xl mt-5 leading-relaxed">
+          <p className="text-ink/85 max-w-xl mt-5 leading-relaxed">
             Each day trip is a self-contained story — pick one, or string a
             few together into a longer package below.
           </p>
@@ -56,8 +56,8 @@ export default function Experiences() {
                       >
                         <div className="grid md:grid-cols-[1.2fr_1fr] gap-8 pb-10 pl-0 md:pl-11">
                           <div>
-                            <Coords>{exp.coords}{" \u00B7 "}{exp.duration}</Coords>
-                            <p className="text-ink/75 leading-relaxed mt-3 max-w-lg">
+                            <Coords>{exp.duration}</Coords>
+                            <p className="text-ink/85 leading-relaxed mt-3 max-w-lg">
                               {exp.blurb}
                             </p>
                           </div>
@@ -76,7 +76,7 @@ export default function Experiences() {
                             <p className="font-mono text-[10px] uppercase tracking-widest text-ink/50 mb-1">
                               Inclusions
                             </p>
-                            <p className="text-sm text-ink/70">{exp.inclusions}</p>
+                            <p className="text-sm text-ink/85">{exp.inclusions}</p>
                           </div>
                         </div>
                       </motion.div>

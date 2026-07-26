@@ -10,7 +10,7 @@ function Block({ title, items }) {
         {items.map((it) => (
           <div key={it.title}>
             <h4 className="font-medium text-ink text-[15px] mb-1">{it.title}</h4>
-            <p className="text-ink/60 text-sm leading-relaxed">{it.text}</p>
+            <p className="text-ink/82 text-sm leading-relaxed">{it.text}</p>
           </div>
         ))}
       </div>
@@ -34,7 +34,7 @@ export default function Practical() {
 
           <Reveal>
             <h3 className="font-display text-2xl text-ink mb-6">Accommodation partners</h3>
-            <p className="text-ink/60 text-sm leading-relaxed mb-5">
+            <p className="text-ink/82 text-sm leading-relaxed mb-5">
               From boutique guesthouses to premium beach resorts, our
               accommodation partners offer the perfect base for your Malindi
               adventure.
@@ -43,7 +43,7 @@ export default function Practical() {
               {accommodation.map((a) => (
                 <span
                   key={a}
-                  className="font-mono text-[11px] uppercase tracking-wide bg-sand text-ink/70 px-3.5 py-2 rounded-full"
+                  className="font-mono text-[11px] uppercase tracking-wide bg-sand text-ink/85 px-3.5 py-2 rounded-full"
                 >
                   {a}
                 </span>

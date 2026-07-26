@@ -18,7 +18,7 @@ export default function Culture() {
               {dining.map((d) => (
                 <div key={d.title} className="border-l-2 border-rust pl-5">
                   <h4 className="font-medium text-ink mb-1">{d.title}</h4>
-                  <p className="text-ink/65 text-sm leading-relaxed">{d.text}</p>
+                  <p className="text-ink/82 text-sm leading-relaxed">{d.text}</p>
                 </div>
               ))}
             </div>
@@ -28,7 +28,7 @@ export default function Culture() {
             <h3 className="font-display text-2xl text-ink mb-6">Swahili heritage & culture</h3>
             <ul className="space-y-3">
               {heritage.map((h) => (
-                <li key={h} className="flex gap-3 text-ink/70 text-sm leading-relaxed">
+                <li key={h} className="flex gap-3 text-ink/85 text-sm leading-relaxed">
                   <span className="w-1.5 h-1.5 rounded-full bg-lagoon mt-1.5 shrink-0" />
                   {h}
                 </li>
@@ -47,7 +47,7 @@ export default function Culture() {
                     </h4>
                     <span className="font-mono text-[10px] text-ink/45 shrink-0">{p.time}</span>
                   </div>
-                  <p className="text-ink/60 text-sm leading-relaxed mt-1">{p.text}</p>
+                  <p className="text-ink/82 text-sm leading-relaxed mt-1">{p.text}</p>
                   <p className="font-mono text-[10px] text-ink/40 mt-1 uppercase tracking-wide">
                     {p.location}
                   </p>

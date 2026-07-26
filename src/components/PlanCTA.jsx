@@ -24,7 +24,7 @@ export default function PlanCTA() {
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="font-display text-2xl mt-3 mb-2">{s.title}</h3>
-              <p className="text-sand-2/70 text-sm leading-relaxed">{s.text}</p>
+              <p className="text-sand-2/90 text-sm leading-relaxed">{s.text}</p>
             </Reveal>
           ))}
         </div>
@@ -35,7 +35,7 @@ export default function PlanCTA() {
               <p className="font-display italic text-3xl md:text-4xl mb-3">
                 Beyond the beach starts with one message.
               </p>
-              <p className="text-ink/65 max-w-md leading-relaxed">
+              <p className="text-ink/82 max-w-md leading-relaxed">
                 Tell us your dates, group size and what you're drawn to — dunes,
                 reef, ruins, or all of it. We reply within 24 hours with a
                 itinerary and transparent pricing.
@@ -46,13 +46,13 @@ export default function PlanCTA() {
                 href={waLink}
                 target="_blank"
                 rel="noreferrer"
-                className="font-mono text-[12px] tracking-wide uppercase bg-rust text-sand-3 px-6 py-4 rounded-full text-center hover:bg-lagoon-deep transition-colors"
+                className="text-[12.5px] font-semibold tracking-[0.06em] uppercase bg-rust text-sand-3 px-6 py-4 rounded-full text-center hover:bg-lagoon-deep transition-colors"
               >
                 Message on WhatsApp
               </a>
               <a
                 href={`mailto:${contact.email}`}
-                className="font-mono text-[12px] tracking-wide uppercase border border-ink/20 text-ink px-6 py-4 rounded-full text-center hover:border-ink transition-colors"
+                className="text-[12.5px] font-semibold tracking-[0.06em] uppercase border border-ink/20 text-ink px-6 py-4 rounded-full text-center hover:border-ink transition-colors"
               >
                 {contact.email}
               </a>

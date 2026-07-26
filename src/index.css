@@ -29,6 +29,7 @@
     background-color: var(--color-sand-3);
     color: var(--color-ink-2);
     font-family: var(--font-body);
+    font-weight: 500;
     overflow-x: hidden;
   }
   ::selection {

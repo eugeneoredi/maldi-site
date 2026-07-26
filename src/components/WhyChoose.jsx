@@ -53,7 +53,7 @@ export default function WhyChoose() {
                   <p className="font-display text-4xl md:text-5xl text-rust">
                     <Counter to={s.to} suffix={s.suffix} />
                   </p>
-                  <p className="text-ink/60 text-xs mt-2 leading-snug">{s.label}</p>
+                  <p className="text-ink/82 text-xs mt-2 leading-snug">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -68,7 +68,7 @@ export default function WhyChoose() {
                   </span>
                   <div>
                     <h4 className="font-display text-xl text-ink mb-1.5">{w.title}</h4>
-                    <p className="text-ink/65 text-sm leading-relaxed">{w.text}</p>
+                    <p className="text-ink/82 text-sm leading-relaxed">{w.text}</p>
                   </div>
                 </div>
               </Reveal>

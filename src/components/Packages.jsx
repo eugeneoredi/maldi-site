@@ -13,7 +13,7 @@ export default function Packages() {
         <Reveal>
           <Eyebrow dark>Multi-day packages</Eyebrow>
           <Heading dark>Journeys, not just excursions</Heading>
-          <p className="text-sand-2/75 max-w-xl mt-5 leading-relaxed">
+          <p className="text-sand-2/90 max-w-xl mt-5 leading-relaxed">
             Every package bundles transport, a professional guide, entry fees
             and local meals. Rates depend on group size and season — send us
             your dates and we'll quote within 24 hours.
@@ -29,7 +29,7 @@ export default function Packages() {
                 className={`font-mono text-[11px] tracking-wide uppercase px-5 py-3 rounded-full border transition-colors ${
                   active === p.id
                     ? "bg-rust border-rust text-sand-3"
-                    : "border-sand-2/25 text-sand-2/70 hover:border-sand-2/60"
+                    : "border-sand-2/25 text-sand-2/90 hover:border-sand-2/60"
                 }`}
               >
                 {p.name}
@@ -48,20 +48,20 @@ export default function Packages() {
               {pkg.overview && (
                 <ul className="space-y-2 mb-6">
                   {pkg.overview.map((o) => (
-                    <li key={o} className="text-sand-2/75 text-sm leading-relaxed">
+                    <li key={o} className="text-sand-2/90 text-sm leading-relaxed">
                       {o}
                     </li>
                   ))}
                 </ul>
               )}
               {pkg.notes && (
-                <p className="text-sand-2/60 text-sm leading-relaxed border-t border-sand-2/15 pt-5">
+                <p className="text-sand-2/85 text-sm leading-relaxed border-t border-sand-2/15 pt-5">
                   {pkg.notes}
                 </p>
               )}
               <a
                 href="#plan"
-                className="inline-block mt-7 font-mono text-[11px] tracking-wide uppercase bg-sand-3 text-ink px-5 py-3 rounded-full hover:bg-rust hover:text-sand-3 transition-colors"
+                className="inline-block mt-7 text-[12.5px] font-semibold tracking-[0.06em] uppercase bg-sand-3 text-ink px-5 py-3 rounded-full hover:bg-rust hover:text-sand-3 transition-colors"
               >
                 Request pricing
               </a>
@@ -75,7 +75,7 @@ export default function Packages() {
                     {d.day}
                   </p>
                   <p className="font-display text-xl md:text-2xl mb-1">{d.title}</p>
-                  {d.text && <p className="text-sand-2/70 text-sm leading-relaxed max-w-lg">{d.text}</p>}
+                  {d.text && <p className="text-sand-2/90 text-sm leading-relaxed max-w-lg">{d.text}</p>}
                 </div>
               ))}
             </div>

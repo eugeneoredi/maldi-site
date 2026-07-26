@@ -19,7 +19,7 @@ export default function ValueProps() {
                   {String(i + 1).padStart(2, "0")}
                 </span>
                 <h3 className="font-display text-2xl md:text-3xl mt-3 mb-4">{v.title}</h3>
-                <p className="text-sand-2/80 text-[15px] leading-relaxed mb-6">{v.text}</p>
+                <p className="text-sand-2/92 text-[15px] leading-relaxed mb-6">{v.text}</p>
                 <ul className="space-y-2">
                   {v.list.map((item) => (
                     <li key={item} className="flex items-center gap-3 text-sand-3/90 text-sm">
