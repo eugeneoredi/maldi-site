@@ -48,14 +48,14 @@ export default function Packages() {
               {pkg.overview && (
                 <ul className="space-y-2 mb-6">
                   {pkg.overview.map((o) => (
-                    <li key={o} className="text-sand-2/90 text-sm leading-relaxed">
+                    <li key={o} className="text-sand-2/90 text-base leading-relaxed">
                       {o}
                     </li>
                   ))}
                 </ul>
               )}
               {pkg.notes && (
-                <p className="text-sand-2/85 text-sm leading-relaxed border-t border-sand-2/15 pt-5">
+                <p className="text-sand-2/85 text-base leading-relaxed border-t border-sand-2/15 pt-5">
                   {pkg.notes}
                 </p>
               )}
@@ -75,7 +75,7 @@ export default function Packages() {
                     {d.day}
                   </p>
                   <p className="font-display text-xl md:text-2xl mb-1">{d.title}</p>
-                  {d.text && <p className="text-sand-2/90 text-sm leading-relaxed max-w-lg">{d.text}</p>}
+                  {d.text && <p className="text-sand-2/90 text-base leading-relaxed max-w-lg">{d.text}</p>}
                 </div>
               ))}
             </div>

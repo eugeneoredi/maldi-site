@@ -13,7 +13,7 @@ export default function Corporate() {
             {corporate.offerings.map((o) => (
               <div key={o.title}>
                 <h4 className="font-medium mb-1">{o.title}</h4>
-                <p className="text-sand-2/90 text-sm leading-relaxed">{o.text}</p>
+                <p className="text-sand-2/90 text-base leading-relaxed">{o.text}</p>
               </div>
             ))}
           </div>
@@ -24,7 +24,7 @@ export default function Corporate() {
           </p>
           <ul className="grid sm:grid-cols-2 gap-x-6 gap-y-3">
             {corporate.reasons.map((r) => (
-              <li key={r} className="flex gap-2.5 text-sm text-sand-2/85">
+              <li key={r} className="flex gap-2.5 text-base text-sand-2/85">
                 <span className="text-rust">✓</span>
                 {r}
               </li>

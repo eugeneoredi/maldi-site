@@ -22,7 +22,7 @@ export default function ValueProps() {
                 <p className="text-sand-2/92 text-[15px] leading-relaxed mb-6">{v.text}</p>
                 <ul className="space-y-2">
                   {v.list.map((item) => (
-                    <li key={item} className="flex items-center gap-3 text-sand-3/90 text-sm">
+                    <li key={item} className="flex items-center gap-3 text-sand-3/90 text-base">
                       <span className="w-1.5 h-1.5 rounded-full bg-lagoon shrink-0" />
                       {item}
                     </li>

@@ -24,7 +24,7 @@ export default function PlanCTA() {
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h3 className="font-display text-2xl mt-3 mb-2">{s.title}</h3>
-              <p className="text-sand-2/90 text-sm leading-relaxed">{s.text}</p>
+              <p className="text-sand-2/90 text-base leading-relaxed">{s.text}</p>
             </Reveal>
           ))}
         </div>

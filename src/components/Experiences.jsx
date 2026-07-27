@@ -67,7 +67,7 @@ export default function Experiences() {
                             </p>
                             <ul className="space-y-2 mb-4">
                               {exp.highlights.map((h) => (
-                                <li key={h} className="flex gap-3 text-sm text-ink/80">
+                                <li key={h} className="flex gap-3 text-base text-ink/80">
                                   <span className="w-1 h-1 rounded-full bg-rust mt-2 shrink-0" />
                                   {h}
                                 </li>
@@ -76,7 +76,7 @@ export default function Experiences() {
                             <p className="font-mono text-[10px] uppercase tracking-widest text-ink/50 mb-1">
                               Inclusions
                             </p>
-                            <p className="text-sm text-ink/85">{exp.inclusions}</p>
+                            <p className="text-base text-ink/85">{exp.inclusions}</p>
                           </div>
                         </div>
                       </motion.div>
