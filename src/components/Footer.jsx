@@ -46,6 +46,19 @@ export default function Footer() {
           <span>MALDI — Malindi Curated · Beyond the Beach</span>
           <span>© {new Date().getFullYear()} Malindi Curated</span>
         </div>
+        <div className="pt-4 text-center text-xs text-sand-2/40 font-mono">
+          <span>
+            Developed by{" "}
+            <a
+              href="https://oredi-eugene.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sand-2/70 hover:text-rust transition-colors underline underline-offset-2"
+            >
+              Eugene Oredi
+            </a>
+          </span>
+        </div>
       </div>
     </footer>
   );
