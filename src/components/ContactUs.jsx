@@ -75,12 +75,12 @@ export default function ContactUs() {
                       href={d.href}
                       target={d.external ? "_blank" : undefined}
                       rel={d.external ? "noreferrer" : undefined}
-                      className="text-sand-3 text-base md:text-lg hover:text-rust transition-colors break-words"
+                      className="font-sans text-sand-3 text-base md:text-lg hover:text-rust transition-colors break-words"
                     >
                       {d.value}
                     </a>
                   ) : (
-                    <p className="text-sand-3 text-base md:text-lg">{d.value}</p>
+                    <p className="font-sans text-sand-3 text-base md:text-lg">{d.value}</p>
                   )}
                 </div>
               ))}
@@ -111,7 +111,7 @@ export default function ContactUs() {
                     required
                     value={form.name}
                     onChange={update("name")}
-                    className="w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base focus:outline-none focus:border-lagoon-deep transition-colors"
+                    className="font-sans w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base focus:outline-none focus:border-lagoon-deep transition-colors"
                   />
                 </div>
                 <div>
@@ -127,7 +127,7 @@ export default function ContactUs() {
                     required
                     value={form.email}
                     onChange={update("email")}
-                    className="w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base focus:outline-none focus:border-lagoon-deep transition-colors"
+                    className="font-sans w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base focus:outline-none focus:border-lagoon-deep transition-colors"
                   />
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function ContactUs() {
                   placeholder="e.g. 12–16 Sept"
                   value={form.dates}
                   onChange={update("dates")}
-                  className="w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base placeholder:text-ink/40 focus:outline-none focus:border-lagoon-deep transition-colors"
+                  className="font-sans w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base placeholder:text-ink/40 focus:outline-none focus:border-lagoon-deep transition-colors"
                 />
               </div>
 
@@ -163,7 +163,7 @@ export default function ContactUs() {
                   value={form.message}
                   onChange={update("message")}
                   placeholder="Tell us your group size and what you're drawn to..."
-                  className="w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base placeholder:text-ink/40 focus:outline-none focus:border-lagoon-deep transition-colors resize-none"
+                  className="font-sans w-full bg-transparent border-b-2 border-ink/15 py-2 text-ink text-base placeholder:text-ink/40 focus:outline-none focus:border-lagoon-deep transition-colors resize-none"
                 />
               </div>
 
