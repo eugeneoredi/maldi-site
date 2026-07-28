@@ -40,7 +40,7 @@ export default function Hero() {
             Beyond the beach.
           </p>
           <p className="text-sand-2/92 max-w-sm text-[15px] leading-relaxed">
-            Curated dunes, mangroves, reef and ruins \u2014 booked through verified
+            Curated dunes, mangroves, reef and ruins — booked through verified
             local partners, priced with no surprises. Malindi Curated is your
             single point of contact for the coast.
           </p>

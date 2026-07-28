@@ -32,7 +32,7 @@ export default function Nav() {
   return (
     <>
       {/* Header: NOTE no backdrop-filter here while the mobile menu is a fixed
-          descendant \u2014 backdrop-filter creates a containing block that traps
+          descendant — backdrop-filter creates a containing block that traps
           position:fixed children. The blurred pill is a separate absolutely
           positioned layer behind the content, not an ancestor of the menu. */}
       <header className="fixed top-0 inset-x-0 z-50">

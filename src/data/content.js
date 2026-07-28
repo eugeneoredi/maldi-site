@@ -7,7 +7,7 @@ export const experiences = [
     id: "golden-dunes",
     name: "Golden Dunes & Marafa",
     coords: "03\u00B009'S 40\u00B008'E",
-    duration: "Full day \u2014 6:30am to 7:30pm",
+    duration: "Full day — 6:30am to 7:30pm",
     blurb:
       "Sunrise on the sand, quad bikes across the Mambrui dunes, camels along the shoreline, and a sunset hike into the red canyons of Hell's Kitchen.",
     highlights: [
@@ -23,7 +23,7 @@ export const experiences = [
     id: "marine-creek",
     name: "Marine & Creek Adventure",
     coords: "03\u00B013'S 40\u00B007'E",
-    duration: "Full day \u2014 8:30am to 7:30pm",
+    duration: "Full day — 8:30am to 7:30pm",
     blurb:
       "Glass-bottom boats over the reef, snorkeling with dolphins for company, then a slow paddle through Mida Creek's mangroves into a sunset aperitif.",
     highlights: [
@@ -38,15 +38,15 @@ export const experiences = [
     id: "heritage-nature",
     name: "Heritage & Nature Tour",
     coords: "03\u00B013'S 40\u00B007'E",
-    duration: "Full day \u2014 9:00am to 7:30pm",
+    duration: "Full day — 9:00am to 7:30pm",
     blurb:
-      "From the Vasco da Gama Pillar to hippos on the Sabaki, falcons on the glove, and artisan stalls in the old town \u2014 five centuries of coast in one day.",
+      "From the Vasco da Gama Pillar to hippos on the Sabaki, falcons on the glove, and artisan stalls in the old town — five centuries of coast in one day.",
     highlights: [
-      "NMK sites \u2014 Vasco da Gama Pillar, Malindi Museum & Portuguese Chapel",
-      "Falconry of Kenya \u2014 live bird-of-prey demonstrations",
-      "Sabaki Estuary \u2014 hippo viewing, birding & nature walks",
-      "Curio Market \u2014 local crafts & artisan souvenirs",
-      "Municipal Market \u2014 authentic local market experience",
+      "NMK sites — Vasco da Gama Pillar, Malindi Museum & Portuguese Chapel",
+      "Falconry of Kenya — live bird-of-prey demonstrations",
+      "Sabaki Estuary — hippo viewing, birding & nature walks",
+      "Curio Market — local crafts & artisan souvenirs",
+      "Municipal Market — authentic local market experience",
     ],
     inclusions: "Transport, professional guide, all entry fees, lunch",
   },
@@ -54,7 +54,7 @@ export const experiences = [
     id: "resort-day-pass",
     name: "Resort Day Pass",
     coords: "03\u00B013'S 40\u00B007'E",
-    duration: "Full day \u2014 10:00am to 7:00pm",
+    duration: "Full day — 10:00am to 7:00pm",
     blurb:
       "For the days that need nothing but a pool, a lounger and the tide going out. Standard and premium resort access, no itinerary required.",
     highlights: [
@@ -63,7 +63,7 @@ export const experiences = [
       "Lunch credit included",
       "Optional sunset drink",
     ],
-    inclusions: "Transport, day pass, sunset drink \u2014 Standard or Premium Resort",
+    inclusions: "Transport, day pass, sunset drink — Standard or Premium Resort",
   },
 ];
 
@@ -132,7 +132,7 @@ export const packages = [
 
 export const partners = [
   {
-    name: "Mambrui \u2014 Waves & Dunes",
+    name: "Mambrui — Waves & Dunes",
     coords: "03\u00B009'S 40\u00B008'E",
     text: "Quad biking across golden sand dunes, camel rides along pristine beaches, and coastal adventures where the desert meets the sea.",
   },
@@ -142,22 +142,22 @@ export const partners = [
     text: "Sunset hikes through ancient sandstone gorges, traditional Giriama dance performances, and geological wonders millions of years in the making.",
   },
   {
-    name: "NMK Malindi \u2014 National Museums of Kenya",
+    name: "NMK Malindi — National Museums of Kenya",
     coords: "03\u00B013'S 40\u00B007'E",
-    text: "The historic Vasco da Gama Pillar, artifacts at the Malindi Museum, and the Portuguese Chapel \u2014 centuries of coastal heritage preserved.",
+    text: "The historic Vasco da Gama Pillar, artifacts at the Malindi Museum, and the Portuguese Chapel — centuries of coastal heritage preserved.",
   },
   {
     name: "Falconry of Kenya",
     coords: "03\u00B013'S 40\u00B007'E",
-    text: "Bird-of-prey demonstrations with expert falconers \u2014 eagles, hawks and owls in action, educational for all ages.",
+    text: "Bird-of-prey demonstrations with expert falconers — eagles, hawks and owls in action, educational for all ages.",
   },
   {
-    name: "Sabaki Estuary \u2014 SARICODO",
+    name: "Sabaki Estuary — SARICODO",
     coords: "03\u00B010'S 40\u00B007'E",
-    text: "Hippo watching, birding across 200+ species, and quad biking along the estuary \u2014 community-led conservation tourism.",
+    text: "Hippo watching, birding across 200+ species, and quad biking along the estuary — community-led conservation tourism.",
   },
   {
-    name: "Mida Creek \u2014 Crab Shack",
+    name: "Mida Creek — Crab Shack",
     coords: "03\u00B021'S 39\u00B059'E",
     text: "Canoe excursions through mangroves, sunset aperitifs, and fresh seafood dining on Kenya's coast.",
   },
@@ -174,7 +174,7 @@ export const officialPartners = [
   },
   {
     name: "Local community organizations",
-    text: "Marafa Hell's Kitchen, SARICODO (Sabaki), Mida Creek conservancies, Gede Ruins and community boat operators \u2014 sustaining tourism that stays local.",
+    text: "Marafa Hell's Kitchen, SARICODO (Sabaki), Mida Creek conservancies, Gede Ruins and community boat operators — sustaining tourism that stays local.",
   },
 ];
 
@@ -186,7 +186,7 @@ export const valueProps = [
   },
   {
     title: "Verified partner pricing",
-    text: "Every experience is picked and every price verified directly with partners \u2014 no hidden fees, no surprises. Just genuine Kenyan hospitality.",
+    text: "Every experience is picked and every price verified directly with partners — no hidden fees, no surprises. Just genuine Kenyan hospitality.",
     list: ["Sabaki Estuary", "Mida Creek Crab Shack", "Malindi Marine Park"],
   },
 ];
@@ -198,7 +198,7 @@ export const whyChoose = [
   },
   {
     title: "Transparent pricing",
-    text: "Every cost itemized upfront \u2014 entry fees, transport, meals and experiences clearly stated before you book.",
+    text: "Every cost itemized upfront — entry fees, transport, meals and experiences clearly stated before you book.",
   },
   {
     title: "Authentic experiences",
@@ -213,17 +213,17 @@ export const whyChoose = [
 export const seasons = [
   {
     name: "Peak Season",
-    range: "Dec \u2014 Mar",
-    text: "Ideal for beach activities, marine adventures and whale shark sightings. Book 2\u20133 weeks ahead for premium experiences.",
+    range: "Dec — Mar",
+    text: "Ideal for beach activities, marine adventures and whale shark sightings. Book 2–3 weeks ahead for premium experiences.",
   },
   {
     name: "Green Season",
-    range: "Apr \u2014 Jun",
+    range: "Apr — Jun",
     text: "Lower rates, lush landscapes, excellent birding at Sabaki. Perfect for nature enthusiasts seeking quieter experiences.",
   },
   {
     name: "Shoulder Season",
-    range: "Jul \u2014 Nov",
+    range: "Jul — Nov",
     text: "Great weather, fewer crowds. Optimal for cultural tours, Marafa sunsets and falconry visits. Book a week ahead.",
   },
 ];
@@ -235,11 +235,11 @@ export const bookingSteps = [
   },
   {
     title: "Customize",
-    text: "Work directly with the MALDI team to tailor your itinerary \u2014 choose experiences, adjust timings, personalize every detail.",
+    text: "Work directly with the MALDI team to tailor your itinerary — choose experiences, adjust timings, personalize every detail.",
   },
   {
     title: "Confirm",
-    text: "Receive your detailed itinerary and transparent pricing. Secure your booking with a 50% deposit \u2014 we handle the rest.",
+    text: "Receive your detailed itinerary and transparent pricing. Secure your booking with a 50% deposit — we handle the rest.",
   },
 ];
 
@@ -250,7 +250,7 @@ export const dining = [
   },
   {
     title: "Traditional Swahili cuisine",
-    text: "Authentic coastal flavors \u2014 pilau, biryani, coconut fish curry, and freshly grilled lobster.",
+    text: "Authentic coastal flavors — pilau, biryani, coconut fish curry, and freshly grilled lobster.",
   },
   {
     title: "Beachfront dining partners",
@@ -261,7 +261,7 @@ export const dining = [
 export const heritage = [
   "Rich Swahili trading history dating back to the 9th century",
   "UNESCO-recognized Gede Ruins showcase ancient Swahili civilization",
-  "Traditional crafts \u2014 intricate wood carving, basket weaving and dhow building",
+  "Traditional crafts — intricate wood carving, basket weaving and dhow building",
   "Vibrant markets featuring local artisans and handmade goods",
   "Community-led cultural experiences and traditional dance performances",
   "Portuguese colonial heritage at the Vasco da Gama Pillar & Chapel",
@@ -271,9 +271,9 @@ export const heritage = [
 export const photoSpots = [
   {
     title: "Dhows at Sunset",
-    time: "6:00\u20136:45pm",
+    time: "6:00–6:45pm",
     location: "Old Town jetty & Coco Beach",
-    text: "Golden-hour magic \u2014 traditional dhows silhouetted against orange skies.",
+    text: "Golden-hour magic — traditional dhows silhouetted against orange skies.",
   },
   {
     title: "Hell's Kitchen Formations",
@@ -285,7 +285,7 @@ export const photoSpots = [
     title: "Marine Life & Coral Gardens",
     time: "Mid-morning, calm water",
     location: "Malindi Marine Park",
-    text: "Colorful reef fish and sea turtles \u2014 an underwater photography paradise.",
+    text: "Colorful reef fish and sea turtles — an underwater photography paradise.",
   },
   {
     title: "Gede Ruins",
@@ -317,7 +317,7 @@ export const responsibleTourism = [
 export const guests = [
   {
     title: "Couples",
-    text: "Romantic escapes \u2014 sunset dhow cruises, beachfront dining, and secluded coastal retreats.",
+    text: "Romantic escapes — sunset dhow cruises, beachfront dining, and secluded coastal retreats.",
   },
   {
     title: "Families",
@@ -363,7 +363,7 @@ export const transport = [
   },
   {
     title: "Inter-attraction transport",
-    text: "Every tour includes dedicated transport between sites \u2014 comfortable 4x4 vehicles for dune and estuary excursions, licensed and insured with first-aid kits onboard.",
+    text: "Every tour includes dedicated transport between sites — comfortable 4x4 vehicles for dune and estuary excursions, licensed and insured with first-aid kits onboard.",
   },
   {
     title: "Vehicle options",
@@ -381,12 +381,12 @@ export const accommodation = [
 export const corporate = {
   offerings: [
     {
-      title: "Corporate retreat \u2014 full day",
+      title: "Corporate retreat — full day",
       text: "A customizable itinerary combining adventure, culture and team activities, including facilitated team challenges at Mambrui Dunes.",
     },
     {
       title: "Incentive travel programs",
-      text: "Reward top performers with curated Malindi experiences \u2014 VIP transport, premium resort access, exclusive sunset dinners.",
+      text: "Reward top performers with curated Malindi experiences — VIP transport, premium resort access, exclusive sunset dinners.",
     },
     {
       title: "Conference & events support",
@@ -394,7 +394,7 @@ export const corporate = {
     },
   ],
   reasons: [
-    "Groups of 10\u2013100+ accommodated",
+    "Groups of 10–100+ accommodated",
     "Fully customizable itineraries",
     "Single point of contact coordination",
     "Verified partner network",
@@ -414,15 +414,15 @@ export const faqs = [
   },
   {
     q: "Can I customize my itinerary?",
-    a: "Absolutely. All packages can be tailored to your interests, group size and schedule \u2014 just let us know your preferences.",
+    a: "Absolutely. All packages can be tailored to your interests, group size and schedule — just let us know your preferences.",
   },
   {
     q: "What is your cancellation policy?",
-    a: "Full refund for cancellations 72 hours in advance. 50% refund for 24\u201372 hours' notice. No refund within 24 hours, but rebooking options are available.",
+    a: "Full refund for cancellations 72 hours in advance. 50% refund for 24–72 hours' notice. No refund within 24 hours, but rebooking options are available.",
   },
   {
     q: "Are prices confirmed with partners?",
-    a: "Yes \u2014 all rates are verified directly with our partners. No hidden fees, no surprises.",
+    a: "Yes — all rates are verified directly with our partners. No hidden fees, no surprises.",
   },
 ];
 
