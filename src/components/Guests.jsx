@@ -18,7 +18,7 @@ export default function Guests() {
                 <h3 className="font-display text-xl text-ink group-hover:text-sand-3 mb-2 transition-colors">
                   {g.title}
                 </h3>
-                <p className="text-ink/82 group-hover:text-sand-2/90 text-base leading-relaxed transition-colors">
+                <p className="text-ink/82 group-hover:text-sand-2/90 text-lg leading-relaxed transition-colors">
                   {g.text}
                 </p>
               </div>

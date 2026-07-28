@@ -22,7 +22,7 @@ export default function Partners() {
                 <h3 className="font-display text-xl md:text-2xl text-ink mb-3 leading-tight">
                   {p.name}
                 </h3>
-                <p className="text-ink/85 text-base leading-relaxed">{p.text}</p>
+                <p className="text-ink/85 text-lg leading-relaxed">{p.text}</p>
               </div>
             </Reveal>
           ))}
@@ -37,7 +37,7 @@ export default function Partners() {
               {officialPartners.map((o) => (
                 <div key={o.name}>
                   <h4 className="font-display text-lg text-ink mb-2">{o.name}</h4>
-                  <p className="text-ink/82 text-base leading-relaxed">{o.text}</p>
+                  <p className="text-ink/82 text-lg leading-relaxed">{o.text}</p>
                 </div>
               ))}
             </div>

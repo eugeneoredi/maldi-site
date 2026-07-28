@@ -68,7 +68,7 @@ export default function WhyChoose() {
                   </span>
                   <div>
                     <h4 className="font-display text-xl text-ink mb-1.5">{w.title}</h4>
-                    <p className="text-ink/82 text-base leading-relaxed">{w.text}</p>
+                    <p className="text-ink/82 text-lg leading-relaxed">{w.text}</p>
                   </div>
                 </div>
               </Reveal>
