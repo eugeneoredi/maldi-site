@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import { Eyebrow, Heading } from "./Bits";
 import { corporate } from "../data/content";
@@ -30,12 +31,12 @@ export default function Corporate() {
               </li>
             ))}
           </ul>
-          <a
-            href="#plan"
+          <Link
+            to="/#plan"
             className="inline-block mt-8 text-[12.5px] font-semibold tracking-[0.06em] uppercase bg-sand-3 text-ink px-5 py-3 rounded-full hover:bg-rust hover:text-sand-3 transition-colors"
           >
             Talk to us about your group
-          </a>
+          </Link>
         </Reveal>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { contact } from "../data/content";
 
@@ -18,11 +19,17 @@ export default function Footer() {
               Explore
             </p>
             <ul className="space-y-2.5 text-sm text-sand-2/90">
-              <li><a href="#experiences" className="hover:text-rust transition-colors">Experiences</a></li>
-              <li><a href="#packages" className="hover:text-rust transition-colors">Packages</a></li>
-              <li><a href="#partners" className="hover:text-rust transition-colors">Partners</a></li>
-              <li><a href="#faq" className="hover:text-rust transition-colors">FAQ</a></li>
-              <li><a href="#contact" className="hover:text-rust transition-colors">Contact</a></li>
+              <li><Link to="/experiences" className="hover:text-rust transition-colors">Experiences</Link></li>
+              <li><Link to="/packages" className="hover:text-rust transition-colors">Packages</Link></li>
+              <li><Link to="/partners" className="hover:text-rust transition-colors">Partners</Link></li>
+              <li><Link to="/why-choose-us" className="hover:text-rust transition-colors">Why choose us</Link></li>
+              <li><Link to="/guests" className="hover:text-rust transition-colors">Who it's for</Link></li>
+              <li><Link to="/seasons" className="hover:text-rust transition-colors">Best time to visit</Link></li>
+              <li><Link to="/culture" className="hover:text-rust transition-colors">Culture & heritage</Link></li>
+              <li><Link to="/practical" className="hover:text-rust transition-colors">Practical info</Link></li>
+              <li><Link to="/corporate" className="hover:text-rust transition-colors">Corporate & groups</Link></li>
+              <li><Link to="/#faq" className="hover:text-rust transition-colors">FAQ</Link></li>
+              <li><Link to="/#contact" className="hover:text-rust transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>

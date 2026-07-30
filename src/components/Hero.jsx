@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Coords } from "./Bits";
 
 export default function Hero() {
@@ -58,12 +59,12 @@ export default function Hero() {
           >
             Book your adventure
           </a>
-          <a
-            href="#experiences"
+          <Link
+            to="/experiences"
             className="text-[12.5px] font-semibold tracking-[0.06em] uppercase border border-sand-2/40 text-sand-3 px-6 py-3.5 rounded-full hover:border-sand-2 transition-colors"
           >
             See experiences
-          </a>
+          </Link>
         </motion.div>
       </div>
 

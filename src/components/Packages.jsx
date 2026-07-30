@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Reveal from "./Reveal";
 import { Eyebrow, Heading } from "./Bits";
 import { packages } from "../data/content";
@@ -59,12 +60,12 @@ export default function Packages() {
                   {pkg.notes}
                 </p>
               )}
-              <a
-                href="#plan"
+              <Link
+                to="/#plan"
                 className="inline-block mt-7 text-[12.5px] font-semibold tracking-[0.06em] uppercase bg-sand-3 text-ink px-5 py-3 rounded-full hover:bg-rust hover:text-sand-3 transition-colors"
               >
                 Request pricing
-              </a>
+              </Link>
             </div>
 
             <div className="relative pl-8 border-l border-sand-2/15">
