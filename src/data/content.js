@@ -372,10 +372,27 @@ export const transport = [
 ];
 
 export const accommodation = [
-  "Beachfront luxury resorts",
-  "Mid-range coastal hotels",
-  "Budget-friendly villas & guesthouses",
-  "Airbnbs & serviced apartments",
+  {
+    tier: "Basic",
+    tagline: "Comfortable & budget-friendly",
+    price: "Pricing coming soon",
+    text: "Simple, clean stays for travelers who want the full Malindi experience without the high-end price tag — great for solo travelers, backpackers and budget-conscious groups.",
+    features: ["Guesthouses & hostels", "Budget-friendly villas", "Close to town & transport links"],
+  },
+  {
+    tier: "Standard",
+    tagline: "Comfort with local character",
+    price: "Pricing coming soon",
+    text: "Our most popular tier — mid-range coastal hotels and serviced apartments that balance comfort, convenience and value.",
+    features: ["Mid-range coastal hotels", "Serviced apartments", "Breakfast & pool access included"],
+  },
+  {
+    tier: "Premium",
+    tagline: "Elevated, beachfront luxury",
+    price: "Pricing coming soon",
+    text: "Beachfront resorts and boutique private villas for travelers seeking an elevated, high-end Malindi stay.",
+    features: ["Beachfront luxury resorts", "Boutique private villas", "Concierge & premium service"],
+  },
 ];
 
 export const corporate = {

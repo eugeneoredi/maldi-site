@@ -31,26 +31,57 @@ export default function Practical() {
           <Block title="Responsible tourism" items={responsibleTourism} />
           <Block title="Your safety, our priority" items={safety} />
           <Block title="Transportation & logistics" items={transport} />
-
-          <Reveal>
-            <h3 className="font-display text-2xl text-ink mb-6">Accommodation partners</h3>
-            <p className="text-ink/82 text-lg leading-relaxed mb-5">
-              From boutique guesthouses to premium beach resorts, our
-              accommodation partners offer the perfect base for your Malindi
-              adventure.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {accommodation.map((a) => (
-                <span
-                  key={a}
-                  className="font-mono text-[11px] uppercase tracking-wide bg-sand text-ink/85 px-3.5 py-2 rounded-full"
-                >
-                  {a}
-                </span>
-              ))}
-            </div>
-          </Reveal>
         </div>
+
+        <Reveal>
+          <div className="mt-20 md:mt-24">
+            <h3 className="font-display text-2xl md:text-3xl text-ink mb-3">
+              Accommodation partners
+            </h3>
+            <p className="text-ink/82 text-lg leading-relaxed max-w-2xl mb-10">
+              From boutique guesthouses to premium beach resorts, choose the
+              stay that fits your trip — every tier is booked through
+              verified local partners.
+            </p>
+
+            <div className="grid sm:grid-cols-3 gap-5">
+              {accommodation.map((tier, i) => {
+                const accent = [
+                  { border: "border-ink/12", badge: "bg-lagoon-deep text-sand-3" },
+                  { border: "border-rust/30", badge: "bg-rust text-sand-3" },
+                  { border: "border-ink/12", badge: "bg-ink text-sand-3" },
+                ][i];
+                return (
+                  <div
+                    key={tier.tier}
+                    className={`rounded-2xl bg-sand border ${accent.border} p-7 flex flex-col`}
+                  >
+                    <span
+                      className={`inline-block self-start font-mono text-[10px] uppercase tracking-widest px-3 py-1.5 rounded-full mb-5 ${accent.badge}`}
+                    >
+                      {tier.tier}
+                    </span>
+                    <h4 className="font-display text-xl text-ink mb-1">{tier.tagline}</h4>
+                    <p className="font-mono text-[12px] uppercase tracking-wide text-ink/45 mb-4">
+                      {tier.price}
+                    </p>
+                    <p className="text-ink/80 text-base leading-relaxed mb-5">
+                      {tier.text}
+                    </p>
+                    <ul className="space-y-2 mt-auto pt-4 border-t border-ink/8">
+                      {tier.features.map((f) => (
+                        <li key={f} className="flex items-start gap-2 text-ink/75 text-sm">
+                          <span className="text-rust mt-0.5">&#10003;</span>
+                          {f}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </Reveal>
       </div>
     </section>
   );
