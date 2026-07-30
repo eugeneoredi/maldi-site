@@ -17,7 +17,8 @@ export default function Packages() {
           <p className="text-sand-2/90 max-w-xl mt-5 leading-relaxed">
             Every package bundles transport, a professional guide, entry fees
             and local meals. Rates depend on group size and season — send us
-            your dates and we'll quote within 24 hours.
+            your dates and we'll quote within 24 hours. All quotes include
+            our 10% service fee, disclosed upfront with no surprises later.
           </p>
         </Reveal>
 

@@ -239,7 +239,7 @@ export const bookingSteps = [
   },
   {
     title: "Confirm",
-    text: "Receive your detailed itinerary and transparent pricing. Secure your booking with a 50% deposit — we handle the rest.",
+    text: "Receive your detailed itinerary and transparent pricing, inclusive of our 10% service fee. Secure your booking with a 50% deposit — we handle the rest.",
   },
 ];
 
@@ -423,6 +423,10 @@ export const faqs = [
   {
     q: "Are prices confirmed with partners?",
     a: "Yes — all rates are verified directly with our partners. No hidden fees, no surprises.",
+  },
+  {
+    q: "Is there a service fee?",
+    a: "Yes, a 10% service fee applies to all bookings. It covers itinerary planning, coordination with local partners, and support throughout your trip — and it's always included upfront in your quote, never added as a surprise later.",
   },
 ];
 
