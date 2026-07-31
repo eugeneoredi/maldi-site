@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import ExperiencesPage from "./pages/ExperiencesPage";
 import PackagesPage from "./pages/PackagesPage";
 import PartnersPage from "./pages/PartnersPage";
+import AccommodationPage from "./pages/AccommodationPage";
 import WhyChoosePage from "./pages/WhyChoosePage";
 import GuestsPage from "./pages/GuestsPage";
 import SeasonsPage from "./pages/SeasonsPage";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/experiences" element={<ExperiencesPage />} />
           <Route path="/packages" element={<PackagesPage />} />
           <Route path="/partners" element={<PartnersPage />} />
+          <Route path="/accommodation" element={<AccommodationPage />} />
           <Route path="/why-choose-us" element={<WhyChoosePage />} />
           <Route path="/guests" element={<GuestsPage />} />
           <Route path="/seasons" element={<SeasonsPage />} />

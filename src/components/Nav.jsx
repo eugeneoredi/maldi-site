@@ -6,6 +6,7 @@ import Logo from "./Logo";
 const PAGE_LINKS = [
   { to: "/experiences", label: "Experiences" },
   { to: "/packages", label: "Packages" },
+  { to: "/accommodation", label: "Accommodation" },
   { to: "/partners", label: "Partners" },
 ];
 
