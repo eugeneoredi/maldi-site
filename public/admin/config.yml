@@ -1,0 +1,33 @@
+backend:
+  name: github
+  repo: eugeneoredi/maldi-site
+  branch: main
+  base_url: https://maldi-site.vercel.app
+  auth_endpoint: api/auth
+
+# Where uploaded images get committed in the repo, and the URL path the
+# site uses to serve them (Vite serves everything under public/ from "/").
+media_folder: "public/accommodation"
+public_folder: "/accommodation"
+
+publish_mode: simple
+
+collections:
+  - name: "accommodation"
+    label: "Accommodation Listings"
+    label_singular: "Listing"
+    folder: "src/content/accommodation"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    format: "json"
+    summary: "{{name}} — {{tier}}"
+    fields:
+      - { label: "Property name", name: "name", widget: "string" }
+      - label: "Tier"
+        name: "tier"
+        widget: "select"
+        options: ["Basic", "Standard", "Premium"]
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Price (e.g. KES 4,500/night)", name: "price", widget: "string", required: false }
+      - { label: "Photo", name: "image", widget: "image", required: false }

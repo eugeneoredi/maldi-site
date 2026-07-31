@@ -9,6 +9,18 @@ const ACCENTS = [
   { border: "border-ink/12", badge: "bg-ink text-sand-3" },
 ];
 
+// Every JSON file added to src/content/accommodation/ (via the CMS at /admin,
+// or by hand) is picked up here automatically at build time — no code
+// changes needed to add, edit, or remove a listing.
+const listingModules = import.meta.glob("../content/accommodation/*.json", {
+  eager: true,
+});
+const allListings = Object.values(listingModules).map((m) => m.default ?? m);
+
+function listingsForTier(tierName) {
+  return allListings.filter((l) => l.tier === tierName);
+}
+
 export default function Accommodation() {
   return (
     <section className="bg-sand-3 py-24 md:py-32 px-5 md:px-8">
@@ -26,6 +38,7 @@ export default function Accommodation() {
         <div className="grid sm:grid-cols-3 gap-5 mt-14">
           {accommodation.map((tier, i) => {
             const accent = ACCENTS[i];
+            const listings = listingsForTier(tier.tier);
             return (
               <Reveal key={tier.tier} delay={i * 0.08}>
                 <div
@@ -52,12 +65,12 @@ export default function Accommodation() {
                     ))}
                   </ul>
 
-                  {tier.listings && tier.listings.length > 0 && (
-                    <div className="mt-6 pt-5 border-t border-ink/8 space-y-4">
+                  {listings.length > 0 && (
+                    <div className="mt-6 pt-5 border-t border-ink/8 space-y-5">
                       <p className="font-mono text-[10px] uppercase tracking-widest text-ink/40">
                         Featured stays
                       </p>
-                      {tier.listings.map((l) => (
+                      {listings.map((l) => (
                         <div key={l.name}>
                           {l.image && (
                             <img
