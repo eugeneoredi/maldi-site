@@ -7,7 +7,9 @@
     <link rel="icon" href="data:," />
   </head>
   <body>
-    <!-- Decap CMS pulls its configuration from config.yml in this same folder -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <!-- Decap CMS pulls its configuration from config.yml in this same folder.
+         Pinned to an exact version rather than a floating range so a fresh
+         upstream release can't silently break this page. -->
+    <script src="https://unpkg.com/decap-cms@3.11.0/dist/decap-cms.js"></script>
   </body>
 </html>
