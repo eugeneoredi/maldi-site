@@ -32,6 +32,14 @@
     font-family: var(--font-body);
     font-weight: 500;
     overflow-x: hidden;
+    /* Old-style ("text") figures — numerals with varying heights and
+       descenders (3, 4, 5, 7, 9 dip below the baseline) — built into
+       Playfair Display, EB Garamond and Cormorant Garamond, just off
+       by default in browsers. font-variant-numeric is the modern way
+       to request it; font-feature-settings is the fallback for any
+       browser that doesn't recognize the shorthand. */
+    font-variant-numeric: oldstyle-nums;
+    font-feature-settings: "onum" 1;
   }
   ::selection {
     background: var(--color-rust);
